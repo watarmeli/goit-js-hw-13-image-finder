@@ -1,0 +1,36 @@
+{
+  "name": "goit-js-hw-13-image-finder",
+  "version": "1.0.0",
+  "description": "goit-js-hw-13-image-finder",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /goit-js-hw-13-image-finder/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watarmeli/goit-js-hw-13-image-finder.git"
+  },
+  "keywords": [],
+  "author": "Uzun Ilya <watar@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/watarmeli/goit-js-hw-13-image-finder/issues"
+  },
+  "homepage": "https://watarmeli.github.io/goit-js-hw-13-image-finder",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "pnotify": "^5.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "basiclightbox": "^5.0.4",
+    "gh-pages": "^3.1.0",
+    "infinite-scroll": "^4.0.1",
+    "lodash.debounce": "^4.0.8"
+  }
+}
