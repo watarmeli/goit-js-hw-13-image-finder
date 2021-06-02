@@ -18,7 +18,7 @@ function searchImages(event) {
 
   if (api.query === '' || api.query === ' ') {
     return error({
-      text: 'Please fill the search field',
+      text: 'Введите валидное значение поиска',
       delay: 2000,
       maxTextHeight: 0,
     });
